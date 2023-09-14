@@ -4,8 +4,9 @@ AllCops:
   SuggestExtensions: false
   NewCops: enable
   Exclude:
-    - 'bin/bundle'
+    - bin/bundle
     - 'bin/**'
+    - 'docs/**'
     - 'vendor/**'
     - 'tmp/**'
     - 'lib/**'
